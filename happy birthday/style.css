@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* Light gray background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff; /* White background for the card */
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
+  h1 {
+    color: #ff5c5c; /* Bold red color */
+    font-size: 42px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Text shadow for depth */
+  }
+  
+  #birthday-image {
+    width: 200px;
+    margin: 20px 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Enhanced circular image shadow */
+  }
+  
+  p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.5; /* Improved line spacing */
+  }
+  
+  button {
+    padding: 12px 24px;
+    background-color: #ff8f8f; /* Light red background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff6666; /* Darker red on hover */
+  }
+  
+  #message {
+    display: none;
+    margin-top: 30px;
+  }
+  
+  #message p {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  
+    #birthday-image {
+      width: 150px;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  
+    #message p {
+      font-size: 20px;
+    }
+  }
+  
